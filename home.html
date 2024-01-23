@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <script src="https://kit.fontawesome.com/ab19a15712.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/flexboxgrid.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-right">
+                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href=""><i class="fa-solid fa-house"></i></a>
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="nav-left">
+                <div class="register-login-btn">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="">ثبت نام/ورود</a>
+                </div>
+            </div>
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="item active" id="slide1">
+                    <img src="./img/p6.jpg" alt="">
+                    <span>بهترین کنسول بازی و ارزان را با ما تجربه کنید</span>
+                </div>
+                <div class="item " id="slide2">
+                    <img src="./img/p8.jpg" alt="">
+                    <span>یکی از جذاب ترین لازی های پلیستیشن</span>
+                </div>
+                <div class="item " id="slide3">
+                    <img src="./img/p10.jpg" alt="">
+                    <span>خدای جنگ در 2017 منتشر شد</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <i onclick="setSlide('slide1',1)" class="fa-solid fa-circle"></i>
+                <i onclick="setSlide('slide2',2)" class="fa-solid fa-circle"></i>
+                <i onclick="setSlide('slide3',3)" class="fa-solid fa-circle"></i>
+            </div>        
+        </section>
+    </header>
+    <main>
+        <section class="product-sec-new">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img/p1.webp" alt="">
+                            <span class="hot-offer">پیشنهاد ویژه</span>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="titel">
+                             هدفون ابی
+                        </div>
+                        <div class="buttons1">
+                            <div class="right">
+                                <span class="price"> 800 هزارتومان</span>
+                            </div>   
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">علاقه</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">خرید</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img/p3.webp" alt="">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="titel">
+                            هدفون قرمز
+                        </div>
+                        <div class="buttons1">
+                            <div class="right">
+                                <span class="price"> 1.2 میلیون تومان</span>
+                            </div>   
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">علاقه</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">خرید</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img/p4.jpg" alt="">
+                            <span class="hot-offer">پیشنهاد ویژه</span>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="titel">
+                             هدفون زرد
+                        </div>
+                        <div class="buttons1">
+                            <div class="right">
+                                <span class="price"> 800 هزارتومان</span>
+                            </div>   
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">علاقه</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">خرید</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img/p5.jpg" alt="">
+                            <span class="hot-offer">پیشنهاد ویژه</span>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="titel">
+                            هدفون سفید
+                        </div>
+                        <div class="buttons1">
+                            <div class="right">
+                                <span class="price"> 200 هزارتومان</span>
+                            </div>   
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">علاقه</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">خرید</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="super-offer-section">
+            <div class="row">
+                <div class="col-lg9">
+                    <div class="super-offer-box">
+                        <span class="super-offer-box-titel">
+                            پیشنهاد شگفت انگیز
+                        </span>
+                        <div class="body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="image-container">
+                                        <img src="./img/a2.webp" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="spesifivation">
+                                        <div class="price-row">
+                                            <div class="price">1میلیون تومان</div>
+                                            <div class="off">تخفیف 60 درصد</div>
+                                        </div>    
+                                        <div class="spesifivation-title">
+                                            strix هدست ایسوس مدل
+                                        </div>
+                                        <div class="conunter-down">
+                                            <span id="seconds">55</span>  :
+                                            <span id="minutes">15</span>  :
+                                            <span id="hours">19</span>
+                                        </div>
+                                        <div class="remaining-time">زمان باقی ماده تا سفارش</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="banner">
+                        <img src="./img/a1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./java script/java.js"></script>
+</body>
+</html>

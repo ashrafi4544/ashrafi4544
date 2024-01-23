@@ -1,0 +1,233 @@
+header{
+    font-size: 1em;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+header nav .nav-right{
+    align-items: center;
+    display: flex;
+}
+header nav .nav-right a{
+    color: #444;
+    padding:5px 10px;
+    margin: 0px 5px;
+    font-size: 1.1em;
+}
+header nav .nav-left .register-login-btn{
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 5px 8px;
+    align-items: center;
+    justify-content: center;
+
+}
+header nav .nav-left .register-login-btn a{
+    color: #444;
+    margin: 0px 10px;
+    font-size: .9em;
+}
+header nav .nav-left .register-login-btn i{
+    margin: 7px;
+    color: #444;
+}
+/*slider*/
+.slider{
+    position: relative;
+    font-size: 1em;
+}
+.slider .slides .item{
+    display:none
+}
+.slider .slides .item img{
+    width: 100%;
+}
+.slider .slides .item span{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    font-size: 1.5em;
+    background-color: rgba(240, 248, 255, 0.473);
+}
+.slider .slides .active{
+    display: block;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+.slider .buttons{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    z-index: 1;
+}
+.slider .buttons i{
+    color: rgba(255, 255, 255, 0.226);
+    margin-right: 5px;
+    cursor : pointer
+}
+.slider .buttons i:hover{
+    color:red 
+}
+/*aaaaaaa*/
+.product-sec-new{
+    padding: 20px;
+    font-size: 1em;
+}
+.product-sec-new .shoping-card{
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .4);
+    margin: 10px 15px;
+    border-radius:5px ;
+    padding: 10px;
+}
+.shoping-card .img-sec{
+    position: relative;
+}
+.shoping-card .img-sec img{
+    width: 60%;
+}
+.shoping-card .img-sec .hot-offer{
+    background-color: red;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+    right: 10px;
+    top: 10px;
+    font-size: .9em;
+}
+.shoping-card .img-sec .stars{
+    position: absolute;
+    top: 10px;
+    left:10px;
+    color: yellow;
+}
+.shoping-card .title{
+    margin: 15px;
+    color: #444;
+}
+.shoping-card .buttons1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+.shoping-card .buttons1 .right{}
+.shoping-card .buttons1 .right .price{
+    color: #666;
+    font-weight: bold;
+
+}
+.shoping-card .buttons1 .left{
+    display: flex;
+}
+.shoping-card .buttons1 .left .extend-btn{
+    display:flex;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellowgreen;
+    width: 40px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .75s;
+
+}
+.shoping-card .buttons1 .left .extend-btn:hover{
+    width: 100px;
+    background-color: rgb(255, 42, 42);
+}
+.shoping-card .buttons1 .left .extend-btn .b-text{
+    display: none;
+   
+}
+.shoping-card .buttons1 .left .extend-btn:hover .b-text{
+    display: block;
+    color: white;
+}
+.shoping-card .buttons1 .left .extend-btn .b-icon{
+    color: white;
+}
+.shoping-card .buttons1 .left .estend-btn a{}
+/*تبلیغات*/
+.super-offer-section{
+    padding: 20px;
+    font-size: 1em;
+}
+.super-offer-box{
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 2);
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.super-offer-box .super-offer-box-titel{
+    background-color: red;
+    color: white;
+    padding: 8px 30px;
+    display: inline-block;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.super-offer-box .body{}
+.super-offer-box .body .image-container{
+    text-align: center;
+    padding: 30px;
+    
+}
+.super-offer-box .body .image-container img{
+    width: 100%;
+}
+.super-offer-box .body .spesifivation{
+    padding: 30px 5px;
+}
+.super-offer-box .body .spesifivation .price-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.super-offer-box .body .spesifivation .price-row .price{
+    margin-left: 5px;
+    color: #444;
+    font-size: 1.2em;
+
+}
+.super-offer-box .body .spesifivation .price-row .off{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+.super-offer-box .body .spesifivation .spesifivation-title{
+    margin: 40px 0px;
+    font-weight: bold;
+    color: #444;
+    font-size:1.4em;
+}
+.super-offer-box .body .spesifivation .conunter-down{
+    border-top:1px solid rgba(0, 0, 0,.4);
+    margin: 10px 40px;
+    padding-top:20px;
+    color: #666;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+.super-offer-box .body .spesifivation .remaining-time{
+    color: #777;
+    font-size: .8em;
+
+}
+.banner{
+    text-align: center;
+    padding: 0px 5px;
+}
+.banner img{
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,.2);
+    width: 80%;
+}
+
